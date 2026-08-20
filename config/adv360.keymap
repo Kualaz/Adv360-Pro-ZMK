@@ -31,11 +31,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp CAPS   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                        &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp DEL    &kp Q      &kp W     &kp F     &kp P      &kp G   &kp HOME                                                                      &kp END    &kp J   &kp L     &kp U      &kp Y     &kp SQT   &kp BSLH
-&kp ESC    &kp A      &kp R     &kp S     &kp T      &kp D   &kp EQUAL  &kp LA(LEFT_GUI)  &kp GRAVE      &kp TILDE          &kp RCTRL      &kp PG_DN  &kp H   &kp N     &kp E      &kp I     &kp O     &kp SEMI
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                &kp TAB        &kp RS(RIGHT_ALT)                            &kp K   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &kp LEFT  &kp RIGHT          &kp SPACE  &kp LGUI          &kp BSPC       &kp RA(RIGHT_GUI)  &kp RIGHT_GUI  &kp RET            &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp RCTRL
+&kp CAPS   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                        &mo 3    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp DEL    &kp Q      &kp W     &kp F     &kp P      &kp G   &kp HOME                                                                      &kp END  &kp J   &kp L     &kp U      &kp Y     &kp SQT   &kp BSLH
+&kp ESC    &kp A      &kp R     &kp S     &kp T      &kp D   &kp EQUAL  &kp LA(LEFT_GUI)  &kp GRAVE      &kp TILDE          &kp RCTRL      &tog 4   &kp H   &kp N     &kp E      &kp I     &kp O     &kp SEMI
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                &kp TAB        &kp RS(RIGHT_ALT)                          &kp K   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp LCTRL  &kp LALT  &kp LEFT  &kp RIGHT          &kp SPACE  &kp LGUI          &kp BSPC       &kp RA(RIGHT_GUI)  &kp RIGHT_GUI  &kp RET          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp RCTRL
             >;
         };
 
@@ -72,9 +72,15 @@
             >;
         };
 
-        extra1 {
-            display-name = "Red";
-            status = "reserved";
+        layer_5 {
+            display-name = "Qwerty";
+            bindings = <
+&kp CAPS   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                        &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp DEL    &kp HOME   &kp Q     &kp W     &kp E      &kp R   &kp T                                                                         &kp END    &kp Y   &kp U     &kp I      &kp O     &kp SQT   &kp BSLH
+&kp ESC    &kp EQUAL  &kp A     &kp S     &kp D      &kp F   &kp G      &kp LA(LEFT_GUI)  &kp GRAVE      &kp TILDE          &kp RCTRL      &kp PG_DN  &kp H   &kp J     &kp K      &kp L     &kp P     &kp SEMI
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                &kp TAB        &kp RS(RIGHT_ALT)                            &kp N   &kp N     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp LCTRL  &kp LALT  &kp LEFT  &kp RIGHT          &kp SPACE  &kp LGUI          &kp BSPC       &kp RA(RIGHT_GUI)  &kp RIGHT_GUI  &kp RET            &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp RCTRL
+            >;
         };
 
         extra2 {
